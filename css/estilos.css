@@ -1,0 +1,136 @@
+*{
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+
+.ancho{
+  margin: auto;
+  max-width: 1200px;
+}
+
+body{
+  font-family: helvetica;
+  font-size: 16px;
+  line-height: 24px;
+  color: #333;
+}
+
+picture{
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+  height: 160px;
+}
+
+header picture img{
+  width: 100px;
+}
+
+header nav{
+  background-color: rgb(129, 0, 0);
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  height: 50px;
+}
+
+nav a{
+  padding: 9px 30px;
+  margin: 5px;
+  color: white;
+  text-decoration: none;
+  border-radius: 5px;
+  border: 1px solid white;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center ;
+}
+
+nav a:hover{
+  background-color: rgb(181, 0, 0);
+  box-shadow: 0px 0px 10px black;
+}
+
+section{
+  height: 400px;
+}
+
+h1{
+  margin: 20px  ;
+}
+
+.formularios{
+width: 800px;
+margin: 10px;
+padding: 30px;
+}
+
+input{
+  border-radius: 5px;
+  width: 200px;
+  margin: 10px;
+  padding: 5px;
+}
+
+button{
+  background-color: #cc9900;
+  padding: 10px 20px;
+  border-radius: 5px;
+  border: none;
+  color: white;
+  font-size: 17px;
+}
+
+button:hover{
+  background-color: #e8ae01;
+  padding: 13px 23px;
+}
+
+footer{
+  background-color: grey;
+  height: 100px;
+  margin: auto;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+.negritas{
+  color: #cc9900;
+  font-weight: bold;
+}
+
+.credencial{
+  border: 1px solid black;
+  width: 500px;
+  margin: auto;
+  color: white;
+}
+
+.credencial td{
+  border: 1px solid black;
+}
+
+.fotocredencial{
+  background-color: #cc9900;
+  width: 100px;
+}
+.nom{
+  color: #800000;
+  padding: 10px;
+}
+
+.mat{
+  color: #cc9900;
+  padding: 10px;
+}
+
+.carrera{
+  color: black;
+  text-transform: uppercase;
+  padding: 10px;
+}
